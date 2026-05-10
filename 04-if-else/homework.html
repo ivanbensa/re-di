@@ -22,13 +22,14 @@
 
     let sales = 0;
 
+
     /*
         Exercise 1:
         You want to check that the total sales are within a certain range.
         - complete the if...else statement so that the result is true if sales are greater than or equal to 70 and less than or equal to 99
     */
 
-    if () {
+    if (sales >= 70 && sales <= 99) {
         console.log("Sales are: " + sales + ". Are they between 70 and 99?", true);
     } else {
         console.log("Sales are: " + sales + ". Are they between 70 and 99?", false);
@@ -45,7 +46,10 @@
     let sciFiDepartmentSales = 0;
     let crimeDepartmentSales = 0;
 
-    if () {
+    if (
+        (sciFiDepartmentSales >= 200 && sciFiDepartmentSales <= 500) ||
+        (crimeDepartmentSales >= 200 && crimeDepartmentSales <= 500)
+    ) {
         console.log(true);
     } else {
         console.log(false);
@@ -61,6 +65,15 @@
 
     let comicBookDepartmentSales = 0;
 
+    if (
+        (sciFiDepartmentSales >= 200 && sciFiDepartmentSales <= 500) ||
+        (crimeDepartmentSales >= 200 && crimeDepartmentSales <= 500) ||
+        (comicBookDepartmentSales >= 200 && comicBookDepartmentSales <= 500)
+    ) {
+        console.log(true);
+    } else {
+        console.log(false);
+    }
 </script>
 </body>
 </html>
