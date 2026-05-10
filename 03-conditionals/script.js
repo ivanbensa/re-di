@@ -49,4 +49,4 @@ if(x + y >= 10) {
     sum = x + y
 }
 
-document.body.innerText = sum;
+document.body.textContent = sum;
